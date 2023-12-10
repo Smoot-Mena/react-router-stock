@@ -1,0 +1,24 @@
+.stock {
+    position: absolute;
+    top: 40vh;
+    left: 35vw;
+    background-color: snow;
+    border: 2px solid lightgreen;
+    z-index: 10;
+    line-height: 2em;
+    padding: 10px;
+}
+
+.stock > p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.stock > h2 > button {
+    padding: 5px;
+    background-color: rgb(32, 32, 32);
+    color: lightgreen;
+    border: none;
+    box-shadow: 2px 5px 5px lightgreen;
+    cursor: pointer;
+}

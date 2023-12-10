@@ -1,0 +1,30 @@
+.stocks {
+    background-color: snow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    gap: 10px 20px;
+    margin: 0px 40px;
+    /* border: 4px solid lightgreen; */
+    border-top: none;
+    border-bottom: none;
+    padding: 10px;
+    position: absolute;
+    top: 70px;
+}
+
+.stocks > a {
+    font-size: 1em;
+    color: rgb(32, 32, 32);
+    letter-spacing: 2px;
+    line-height: 2.5em;
+    border: 2px solid lightgreen;
+    text-align: center;
+}
+
+.stocks > a:hover {
+    color: lightgreen;
+    background-color: rgb(32, 32, 32);
+    transition: 1s;
+}

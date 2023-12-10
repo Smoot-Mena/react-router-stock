@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    position: absolute;
+    top: 10vh;
+    flex-flow: row wrap;
+    gap: 8vw;
+    padding: 2vh 1vw;
+}
+
+article {
+    width: 45vw;
+}
+
+em {
+    font-size: .8em;
+}
+
+figure {
+    width: inherit;
+}
+
+img {
+    width: inherit;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+cite {
+    color: dodgerblue;
+}
