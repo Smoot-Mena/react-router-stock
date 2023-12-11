@@ -9,7 +9,7 @@ import Dashboard from "./components/Dashboard";
 
 function App() {
 
-  let apiKey = "ac9ec7b8460e81a39e5c34b0d889bf89";
+  let apiKey = import.meta.env.VITE_API_KEY;
 
   const url = `https://financialmodelingprep.com/api/v3/search-ticker?query=AA&limit=30&apikey=${apiKey}`;
 
